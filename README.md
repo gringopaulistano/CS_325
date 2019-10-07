@@ -1,4 +1,4 @@
-Author: Jamie Loebe
+Author: Jamie Loebe . </br>
 Date: 10/06/2019
 Course: CS325 Intro to Algorithms
 Description: The following programs run insert sort and merge sort algorithms. After reading numbers in from the data.txt file, insertSort.py and mergeSort.py write the sorted arrays to merge.txt and insert.txt. There are also 2 algorithm analysing programs as well, insertTime.py and mergeTime.py. Both generate arrays of random numbers, and then output the size of said arrays and the time taken to run the algorithms.
