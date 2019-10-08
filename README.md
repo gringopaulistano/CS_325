@@ -11,7 +11,7 @@ https://www.guru99.com/reading-and-writing-files-in-python.html </br>
 https://stackabuse.com/read-a-file-line-by-line-in-python/ </br>
 https://docs.python.org/2/library/timeit.html </br>
 https://stackoverflow.com/questions/8220801/how-to-use-timeit-module (4th answer from top with 86 upvotes helped with default.timer() </br>
-I referenced the Python Documentation extensively for the loops used, as well as geeksforgeeks and w3 schools.
+I also referenced the Python Documentation (https://docs.python.org/2/contents.html) extensively for help in using Python, as well as geeksforgeeks(mentioned earlier) and w3 schools.
 
 
 </br>
