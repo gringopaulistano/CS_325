@@ -2,7 +2,7 @@ def insertSort(arr):
 
   for i in range(1, len(arr)): #Loop thru array
     cur = arr[i] #cur contains value of current position in array
-    pos = i - 1 #starts at 1, contains pos of array
+    pos = i - 1 #contains value on left of cur, decrements throughout
 
     while (pos >= 0) and (arr[pos] > cur): #If value on left larger
       arr[pos+1] = arr[pos] #Move to right
