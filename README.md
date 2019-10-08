@@ -6,11 +6,12 @@
 </br>
 I used the following links for help and reference throughout for the algorithms, as well as reading and writing to files and timing the algorithms. </br>
 https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/ </br>
-https://www.geeksforgeeks.org </br>
+https://www.geeksforgeeks.org I referenced this site for loops, reading/writing to a file and pseudocode for algorithms, </br> 
 https://www.guru99.com/reading-and-writing-files-in-python.html </br>
 https://stackabuse.com/read-a-file-line-by-line-in-python/ </br>
 https://docs.python.org/2/library/timeit.html </br>
-https://stackoverflow.com/questions/8220801/how-to-use-timeit-module (4th answer from top with 86 upvotes helped with default.timer()
+https://stackoverflow.com/questions/8220801/how-to-use-timeit-module (4th answer from top with 86 upvotes helped with default.timer() </br>
+I referenced the Python Documentation extensively for the loops used, as well as geeksforgeeks and w3 schools.
 
 
 </br>
