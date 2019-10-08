@@ -22,7 +22,7 @@ def main():
     sortedArr = insertSort(newArr2)
   
     for i in sortedArr:
-      outputFile.write(str(i) + ' ')
+      outputFile.write(str(i) + ' - ')
 
     outputFile.write('\n')
         
