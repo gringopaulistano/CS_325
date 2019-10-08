@@ -25,7 +25,7 @@ def insertSort(arr):
 def main():
     lst_sizes = [n for n in range(1000,10000,1000)] 
     
-    # executing a for loop for each of the element in the lst_size
+    #iterate thru each of the elements in lst_size
     for size in lst_sizes:
         
         arr = createArray(size, 10000)  #Create array with size n, values up to 10,000
