@@ -47,7 +47,7 @@ def mergeSort(arr):
 
 def main():
     
-    lst_sizes = [n for n in range(150000, 250000, 10000)]
+    lst_sizes = [n for n in range(100, 900, 100)]
     
     for size in lst_sizes:
         

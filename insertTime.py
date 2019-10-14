@@ -23,7 +23,7 @@ def insertSort(arr):
     arr[pos+1] = cur
 
 def main():
-    lst_sizes = [n for n in range(1000,10000,1000)] 
+    lst_sizes = [n for n in range(100,900,100)] 
     
     # executing a for loop for each of the element in the lst_size
     for size in lst_sizes:
