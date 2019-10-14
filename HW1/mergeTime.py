@@ -16,6 +16,7 @@ def merge(one, two):
     k = 0 #Right counter
     final = [] #array to hold sorted
     
+    #Sort thru array
     while(j < len(one) and k < len(two)):
         if(one[j] < two[k]):
             final.append(one[j])
@@ -37,8 +38,7 @@ def merge(one, two):
 def mergeSort(arr):
     if len(arr) == 0  or len(arr) == 1:
         return arr
-
-    #Continue recursive calls
+      
     mid = len(arr)//2 
     
     left = mergeSort(arr[:mid])    
@@ -51,15 +51,14 @@ def main():
     
     for size in lst_sizes:
         
-        arr = createArray(size, 10000)  # will create the array with size and each of the elements in 
-                                        # the range 0 to 9999.
-        # get the start time
+        arr = createArray(size, 10000)  #create array of size n, values up to 10,000
+        #start
         start_time = timeit.default_timer()    
-        # call the merge sort
+        #sort
         arr = mergeSort(arr)
-        # get the stop time
+        #stop
         stop_time = timeit.default_timer()
-        # calculate the time taken
+        #calculate time
         time_taken = stop_time - start_time
         print("Array Size:", size, "time taken:", time_taken, "seconds")
     

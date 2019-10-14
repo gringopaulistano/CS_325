@@ -59,7 +59,7 @@ def main():
         arrSorted = mergeSort(newArr2)
 
         for i in arrSorted:
-            outputFile.write(str(i) + ' ')
+            outputFile.write(str(i) + ' - ')
 
         outputFile.write('\n')
         
